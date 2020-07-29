@@ -1,48 +1,50 @@
-## Section 1: Introduction to python 
-Purpose of this section is to establish social familiarity with everyone
-participating in class and ensure code environments are working
+# Lessons
+## Expected Knowledge
+* Executing python locally in terminal
+* For loops in python
+* Variable assignment
+* How to write a python function
 
-### Instructor Do: Walk through basic python syntax and execution (20 minutes)
-* Explain python language structure
-* Show string and numeric types
-* Show how collections can be represented with lists
-* Explain how python is a whitespaced language
+## Section 1: Reusable code
 
-### Students Do: Print hi to everyone at NumFOCUS (10 minutes)
-* Ask students to use a for loop to print greetings to each other
+### Everyone Do: Ask why are functions useful in Python? (15 mins)
+* Two big reasons 
+  * Code reuse
+  * Variable Scope
+* Instructor shows examples of functions
 
-### Exercise Review: Say hi (5 minutes)
-* Review above exercise
+### Instructor Do: Functions downsides (10 minutes)
+* Show example with dogs and people making noises
+* Sometimes not clear what functions take in what data
+* User needs to remember two things, relevant variables and relevant function
+* Note that people strongly disagree with OO vs Functional
+  * There's both human and computational reasons why some folks like one over the other
 
-### Instructor Do: Import and objects (10 minutes)
-* Show how imports work
-* Show object syntax
+## Section 2: Introducing Objects
 
-### Students Do: Square Root of numbers (10 minutes)
-* Students use for loop and math package to take square root numbers
+### Instructor Do: Classes, Objects, and instances (20 minutes)
+* Show class definition syntax
+* Show how to instantiate an object instance
+* Show how to write an object method
+* Show use of `__init__` and a reference to self
 
-### Exercise Review: Review round numbers (5 minutes)
-* Review above exercise
+### Students Do: Make noise people and animals (15 mins)
 
-## Section 2: Environments and Anaconda
-Introduce environment management and anaconda. Talk about why this is 
-particularly important
+### Instructor Do: Review animals (5 mins)
 
-### Everyone Do: Activate custom environment (15 minutes)
-* Create a custom environment for this project and install necessary packages
+### Instructor Do: Explain inheritance (10 mins)
+* Show how objects methods can be inherited
+* Show how class inheritance adds another layer of reusability
 
-## Section 3: XML and Parsing pypi 
-### Instructor Do: Show how to download xml files from pypi (20 minutes)
-* Show how pypi is structured and where xml files are stored
-  * Explain how xml works
-* Show how to download urls in python using requests
-* Show how to interact with xml in python
 
-### Students Do: Add additional numfocus packages (15 minutes)
-* Add additional Numfocus libraries to parser
+### Students Do: Refactor make noise with inheritance (10 mins)
+### Instructor Do: Review make noise with inheritance (10 mins)
 
-### Review: Add additional numfocus packages (10 minutes)
-
-## Remaining Time for Questions
-Answer any remaining questions
-
+### Instructor Do: Show more complicated uses of classes
+* Properties
+* Abstract methods
+* Custom Dunder methods
+  * Examples from numpy
+  * Examples from PyMC3
+* Class method, Static Methods 
+* Class factories 
