@@ -1,6 +1,4 @@
-# Create object called people that stores a persons name and says hello
+# Redo exercise 1 but use inheritance
 
 
-
-# Create object called Dog that stores a dogs name and says hello
 
